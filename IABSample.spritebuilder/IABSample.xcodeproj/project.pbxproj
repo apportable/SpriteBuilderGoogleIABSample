@@ -953,7 +953,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ANDROID_KEYSTORE = "/Volumes/Vault/Applications/SBSampleApps/GoogleIABExample/IABSample.spritebuilder/Source/Resources/debug-key.keystore";
+				ANDROID_KEYSTORE = "$(SRCROOT)/Source/Resources/debug-key.keystore";
 				ANDROID_KEYSTORE_PASS = apportable;
 				ANDROID_KEY_NAME = mykeys;
 				ANDROID_MANIFEST = "$(SRCROOT)/Source/Resources/Platforms/Android/AndroidManifest.xml";
@@ -1011,7 +1011,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ANDROID_KEYSTORE = "/Volumes/Vault/Applications/SBSampleApps/GoogleIABExample/IABSample.spritebuilder/Source/Resources/debug-key.keystore";
+				ANDROID_KEYSTORE = "$(SRCROOT)/Source/Resources/debug-key.keystore";
 				ANDROID_KEYSTORE_PASS = apportable;
 				ANDROID_KEY_NAME = mykeys;
 				ANDROID_MANIFEST = "$(SRCROOT)/Source/Resources/Platforms/Android/AndroidManifest.xml";
